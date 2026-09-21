@@ -1,0 +1,9 @@
+,sum_sq,df,F,PR(>F),eta_sq_parcial
+C(representacion),0.1595,3.0,5.4661,0.0016,0.1318
+C(clasificador),0.0687,2.0,3.5325,0.0327,0.0614
+C(distancia_carga),0.237,2.0,12.1841,0.0,0.1841
+C(representacion):C(clasificador),0.2865,6.0,4.9099,0.0002,0.2143
+C(representacion):C(distancia_carga),0.103,6.0,1.7645,0.1132,0.0893
+C(clasificador):C(distancia_carga),0.0178,4.0,0.458,0.7663,0.0167
+C(representacion):C(clasificador):C(distancia_carga),0.0336,12.0,0.2883,0.9901,0.031
+Residual,1.0504,108.0,,,0.5

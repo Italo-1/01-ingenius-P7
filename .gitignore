@@ -1,0 +1,25 @@
+# Entorno de Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Datos originales: se descargan con src/01_download.py, no se versionan
+data/raw/
+data/processed/
+
+# Artefactos locales
+.claude/
+*.log
+.DS_Store
+Thumbs.db
+
+# Auxiliares de compilacion LaTeX
+*.aux
+*.out
+*.bbl
+*.blg
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk

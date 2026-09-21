@@ -1,0 +1,6 @@
+Representacion,Dimension,Resolucion,Invariante a la amplitud,En la comparacion
+Estadisticos temporales,12,--,no,si
+Magnitud FFT,1025,5.86 Hz,no,si
+Wavelet db4 (energia relativa),6,banda diadica,si,si
+Espectrograma STFT (16x64),1024,375.0 Hz / 2.67 ms,si,si
+"Espectrograma STFT (64x64), entrada de la CNN",4096,187.5 Hz / 2.67 ms,si,no

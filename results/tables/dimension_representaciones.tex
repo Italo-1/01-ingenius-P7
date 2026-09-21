@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Dimension, resolucion efectiva y dependencia de la amplitud absoluta de cada representacion. La STFT usa nperseg = 64 muestras, lo que da 187.5 Hz por banda y 63 tramas separadas 2.67 ms. La banda de frecuencia localiza la resonancia estructural de 2 a 5.5 kHz que excita la falla, y el paso temporal resuelve la tasa de repeticion de los impactos, de 6.2 ms para BPFI a 9.3 ms para BPFO a 1797 rpm, que es donde reside la firma. La resolucion declarada es la de la imagen, no la de la STFT que la origina: la version vectorizada usa una rejilla de 16x64 que conserva el eje temporal y reduce solo el de frecuencia, porque una rejilla cuadrada de la misma dimension dejaria 10.67 ms por columna y borraria el tren de impactos. La wavelet devuelve energia relativa por banda y el espectrograma se normaliza por imagen, de modo que ambas descartan la escala; los estadisticos y la FFT la conservan. La imagen de 64x64 alimenta la CNN 2D y queda fuera de la comparacion estadistica.}
+\label{tab:representaciones}
+\begin{tabular}{lrrrr}
+\toprule
+Representacion & Dimension & Resolucion & Invariante a la amplitud & En la comparacion \\
+\midrule
+Estadisticos temporales & 12 & -- & no & si \\
+Magnitud FFT & 1025 & 5.86 Hz & no & si \\
+Wavelet db4 (energia relativa) & 6 & banda diadica & si & si \\
+Espectrograma STFT (16x64) & 1024 & 375.0 Hz / 2.67 ms & si & si \\
+Espectrograma STFT (64x64), entrada de la CNN & 4096 & 187.5 Hz / 2.67 ms & si & no \\
+\bottomrule
+\end{tabular}
+\end{table}

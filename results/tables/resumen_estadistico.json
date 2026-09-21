@@ -1,0 +1,49 @@
+{
+  "friedman_principal": {
+    "chi2": 5.200000000000017,
+    "p_valor": 0.15772445039666164,
+    "n_bloques": 12,
+    "k_representaciones": 4,
+    "distancia_critica": 1.353981884828761,
+    "rangos_medios": {
+      "STFT spectrogram": 1.8333,
+      "FFT": 2.5,
+      "Statistical": 2.6667,
+      "Wavelet db4": 3.0
+    }
+  },
+  "friedman_por_clasificador": {
+    "SVM-RBF": {
+      "chi2": 17.100000000000023,
+      "p_valor": 0.0006740496331685252,
+      "rangos_medios": {
+        "STFT spectrogram": 1.3333,
+        "Statistical": 2.5833,
+        "Wavelet db4": 2.5833,
+        "FFT": 3.5
+      }
+    },
+    "RandomForest": {
+      "chi2": 13.700000000000017,
+      "p_valor": 0.0033432929655500404,
+      "rangos_medios": {
+        "FFT": 1.3333,
+        "Wavelet db4": 2.6667,
+        "STFT spectrogram": 2.9167,
+        "Statistical": 3.0833
+      }
+    },
+    "MLP": {
+      "chi2": 21.0,
+      "p_valor": 0.00010527618177149762,
+      "rangos_medios": {
+        "FFT": 1.0833,
+        "STFT spectrogram": 2.5833,
+        "Statistical": 3.0833,
+        "Wavelet db4": 3.25
+      }
+    }
+  },
+  "orden_identico_en_robustez": false,
+  "semilla": 42
+}

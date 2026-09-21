@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+\centering
+\caption{F1-macro (mean $\pm$ standard deviation over 5 folds x cells) in-domain and out-of-domain, by representation and classifier. The 2D CNN is a reference row: it does not enter Friedman or the ANOVA because it does not exist for the other three representations.}
+\label{tab:f1-dentro-fuera}
+\begin{tabular}{llrr}
+\toprule
+Representation & Classifier & F1 in-domain & F1 out-of-domain \\
+\midrule
+Statistical & MLP & 0.988 $\pm$ 0.015 & 0.799 $\pm$ 0.229 \\
+ & RandomForest & 0.992 $\pm$ 0.008 & 0.869 $\pm$ 0.103 \\
+ & SVM-RBF & 0.985 $\pm$ 0.020 & 0.836 $\pm$ 0.174 \\
+FFT & MLP & 1.000 $\pm$ 0.000 & 0.971 $\pm$ 0.043 \\
+ & RandomForest & 1.000 $\pm$ 0.000 & 0.956 $\pm$ 0.054 \\
+ & SVM-RBF & 0.999 $\pm$ 0.003 & 0.774 $\pm$ 0.061 \\
+Wavelet db4 & MLP & 0.969 $\pm$ 0.017 & 0.830 $\pm$ 0.087 \\
+ & RandomForest & 0.982 $\pm$ 0.011 & 0.892 $\pm$ 0.045 \\
+ & SVM-RBF & 0.929 $\pm$ 0.018 & 0.850 $\pm$ 0.074 \\
+STFT spectrogram & MLP & 0.998 $\pm$ 0.003 & 0.916 $\pm$ 0.056 \\
+ & RandomForest & 0.980 $\pm$ 0.011 & 0.898 $\pm$ 0.069 \\
+ & SVM-RBF & 0.999 $\pm$ 0.001 & 0.942 $\pm$ 0.054 \\
+CNN 2D (reference, excluded from the comparison) & CNN2D & 0.971 $\pm$ 0.116 & 0.957 $\pm$ 0.119 \\
+\bottomrule
+\end{tabular}
+\end{table}

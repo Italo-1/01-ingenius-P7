@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering
+\caption{Paired F1-macro difference (RMS-normalized version minus original version), with 95% bootstrap CI and Cliff's delta, for time-domain statistics and FFT with SVM-RBF and Random Forest.}
+\label{tab:ablacion}
+\begin{tabular}{rrrrrrrrrr}
+\toprule
+Representation & Classifier & F1 original (mean) & F1 RMS-normalized (mean) & Mean difference & 95\% CI lower & 95\% CI upper & Cliff's delta & Magnitude & n pairs \\
+\midrule
+Statistical & SVM-RBF & 0.8363 & 0.8183 & -0.0180 & -0.0467 & 0.0114 & -0.2050 & small & 60 \\
+Statistical & RandomForest & 0.8690 & 0.7198 & -0.1492 & -0.1965 & -0.1034 & -0.4722 & medium & 60 \\
+FFT & SVM-RBF & 0.7736 & 0.8067 & 0.0331 & -0.0020 & 0.0666 & 0.3300 & medium & 60 \\
+FFT & RandomForest & 0.9561 & 0.8230 & -0.1331 & -0.1511 & -0.1155 & -0.7500 & large & 60 \\
+\bottomrule
+\end{tabular}
+\end{table}

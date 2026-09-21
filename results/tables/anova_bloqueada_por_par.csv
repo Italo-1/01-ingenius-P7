@@ -1,0 +1,6 @@
+,sum_sq,df,F,PR(>F),eta_sq_parcial
+C(representacion),0.1595,3.0,6.437,0.0004,0.1376
+C(clasificador),0.0687,2.0,4.1599,0.0179,0.0643
+C(par),0.4425,11.0,4.8707,0.0,0.3069
+C(representacion):C(clasificador),0.2865,6.0,5.782,0.0,0.2228
+Residual,0.9994,121.0,,,0.5

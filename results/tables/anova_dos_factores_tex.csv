@@ -1,0 +1,5 @@
+,sum_sq,df,F,PR(>F),eta_sq_parcial
+Representation,0.2658,3,15.9306,0.0,0.1733
+Load distance,0.395,2,35.5096,0.0,0.2375
+Representation x Load distance,0.1716,6,5.1423,0.0001,0.1192
+Residual,1.2681,228,,,0.5

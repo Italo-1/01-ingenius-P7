@@ -1,0 +1,9 @@
+carga_train,regimen,mean,std,count
+0,in-domain,0.9979,0.0031,5
+0,out-of-domain,0.9675,0.0291,15
+1,in-domain,1.0,0.0,5
+1,out-of-domain,0.9954,0.0067,15
+2,in-domain,0.9918,0.0165,5
+2,out-of-domain,0.98,0.0353,15
+3,in-domain,0.8924,0.2302,5
+3,out-of-domain,0.8855,0.2234,15

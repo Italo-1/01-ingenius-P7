@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering
+\caption{Mean macro-F1 drop from the diagonal to the twelve off-diagonal pairs, with a percentile bootstrap confidence interval over the pairs.}
+\label{tab:caidas}
+\begin{tabular}{rrrrrrr}
+\toprule
+Representation & F1 in-domain & F1 out-of-domain & Drop & 95\% CI lower & 95\% CI upper & n pairs \\
+\midrule
+STFT spectrogram & 0.9925 & 0.9186 & 0.0740 & 0.0434 & 0.1054 & 12 \\
+FFT & 0.9997 & 0.9002 & 0.0995 & 0.0796 & 0.1219 & 12 \\
+Wavelet db4 & 0.9602 & 0.8573 & 0.1029 & 0.0731 & 0.1331 & 12 \\
+Statistical & 0.9882 & 0.8348 & 0.1534 & 0.0735 & 0.2400 & 12 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,45 @@
+\usepackage{titlesec}
+\usepackage[spanish,english]{babel}
+\titleformat{\section}
+{\large \bfseries }
+{\thesection.}{.5em}{}
+
+\titleformat{\subsection}
+{\normalsize \bfseries  }
+{\thesubsection.}{.5em}{}
+
+\titleformat{\subsubsection}
+{\normalsize \bfseries }
+{\thesubsubsection.}{.5em}{}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LO]{} % En las páginas impares, parte izquierda del encabezado, aparecerá el nombre de capítulo
+%\fancyhead[RE]{{\rule[-2ex]{0pt}{3ex} \bf \revista} N.$^\circ$ \num, \mest \, de \anoc} % En las páginas pares, parte derecha del encabezado, aparecerá el nombre de sección
+\fancyhead[LE,RO]{ \large \thepage  } % Números de página en las esquinas de los encabezados
+\fancyhead[LO]{\rule[-2ex]{0pt}{3ex} {\it \apellido \,/ \titu}} % Números de página en las esquinas de los encabezados
+%\fancyfoot[LE,RO]{\thepage} %Escribo este texto a la izquierda en las páginas impares y a la derecha en las pares
+%\fancyfoot[LO,RE]{ \rule{300pt}{0.5pt}\\ \textsc{Ingenius}, {\it  Revista de Ciencia y Tecnolog\'ia.}\\ \copyright  \, 2013, {Universidad Polit\'ecnica Salesiana, Ecuador.}} %Escribo este texto a la izquierda en las páginas impares y a la derecha en las pares
+%\fancyfoot[LO,RE]{\textsc{Ingenius}, {\it  Revista de Ciencia y Tecnolog\'ia}, 7(1) 2012: 1-6. \\ \copyright  \, 2012, {Universidad Polit\'ecnica Salesiana, Ecuador.}} %Escribo este texto a la izquierda en las páginas impares y a la derecha en las pares
+\renewcommand{\headrulewidth}{0.5pt}
+%\renewcommand{\footrulewidth}{0.5pt}
+
+\usepackage[]{hyperref}
+\hypersetup{
+    pdftitle={\titu},
+    pdfauthor={\autor},
+    pdfsubject={Ingenius -- Revista de Ciencia y Tecnolog\'ia},
+    pdfkeywords={\pc; \kw},
+    pdfborder={0 0 0},
+   % bookmarks=true,
+pdfstartpage=1,
+pdfproducer=pdf\TeX{}-1.40.13. 
+}
+
+
+
+\usepackage{xcolor}
+\usepackage{color}
+\usepackage{listings}%% lista de códigos
+\usepackage{tikz}
