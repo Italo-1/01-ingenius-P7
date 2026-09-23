@@ -37,7 +37,10 @@
   vibration analysis.
 - **Revisores sugeridos:** la revista no los pide.
 - **Repositorio de código:** https://github.com/Italo-1/bearing-fault-signal-representation
-- **DOI de Zenodo:** [pendiente de generar]
+- **DOI de Zenodo:** 10.5281/zenodo.22907922 — https://doi.org/10.5281/zenodo.22907922
+  (DOI de concepto: apunta siempre a la última versión publicada). **En el
+  manuscrito se cita solo el DOI, no la URL de GitHub**, para no romper el
+  anonimato de la revisión ciega.
 - **Notas:**
   - **Revisión doble ciego.** El archivo tiene que estar anonimizado *también en
     las propiedades del PDF*, no solo en el texto. Comprobar antes de subir.

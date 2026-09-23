@@ -48,17 +48,17 @@ not involve human participants, human data, or animals.
 
 The dataset used is public and cited in the manuscript. The training, statistics,
 and figure-generation code, and the per-run results underlying every table and
-figure in this article, are deposited at
-https://github.com/Italo-1/bearing-fault-signal-representation with DOI
-[Zenodo DOI pending].
+figure in this article, are deposited with the DOI 10.5281/zenodo.22907922.
 
-> **Conflicto con el doble ciego, a resolver antes de enviar.** Esa URL contiene
-> el usuario de GitHub del primer autor, así que ponerla tal cual en un
-> manuscrito anónimo lo desanonimiza. Dos salidas, ambas habituales:
-> citar únicamente el DOI de Zenodo (que no revela el usuario), o dejar
-> *"available at an anonymized repository, to be disclosed upon acceptance"*
-> durante la revisión. La segunda es más segura pero cumple peor el checklist §6
-> de la guía. **La decisión hay que tomarla al generar el DOI.**
+> **Resuelto el conflicto con el doble ciego.** En el manuscrito se cita
+> **solo el DOI**, no la URL de GitHub: esa URL contiene el usuario del primer
+> autor (`Italo-1`) y desanonimizaría el artículo, que va a revisión ciega. El
+> DOI de Zenodo no revela autoría y cumple igual el checklist §6 de la guía.
+> La URL del repositorio queda registrada aquí y en `ENVIO.md`, que son
+> documentos internos y no se envían a la revista.
+>
+> Repositorio: https://github.com/Italo-1/bearing-fault-signal-representation
+> DOI de concepto (apunta siempre a la última versión): 10.5281/zenodo.22907922
 
 ## 6. Artificial Intelligence Statement
 
