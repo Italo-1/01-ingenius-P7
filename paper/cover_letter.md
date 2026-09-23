@@ -74,6 +74,7 @@ authors take full responsibility for the content of the manuscript.
 
 Yours sincerely,
 
-[Author name], on behalf of the authors
-[Affiliation]
-[Email]
+Isaac David Torres Paredes, on behalf of the authors
+Facultad de Informática y Electrónica, Escuela Superior Politécnica de
+Chimborazo (ESPOCH), Riobamba, Ecuador
+isaac.torres@espoch.edu.ec
