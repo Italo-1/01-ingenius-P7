@@ -36,7 +36,7 @@
   diagnosis, data leakage, domain shift, Friedman test, signal representation,
   vibration analysis.
 - **Revisores sugeridos:** la revista no los pide.
-- **Repositorio de código:** https://github.com/Italo-1/01-ingenius-P7
+- **Repositorio de código:** https://github.com/Italo-1/bearing-fault-signal-representation
 - **DOI de Zenodo:** [pendiente de generar]
 - **Notas:**
   - **Revisión doble ciego.** El archivo tiene que estar anonimizado *también en

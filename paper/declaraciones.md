@@ -48,8 +48,9 @@ not involve human participants, human data, or animals.
 
 The dataset used is public and cited in the manuscript. The training, statistics,
 and figure-generation code, and the per-run results underlying every table and
-figure in this article, are deposited at https://github.com/Italo-1/01-ingenius-P7
-with DOI [Zenodo DOI pending].
+figure in this article, are deposited at
+https://github.com/Italo-1/bearing-fault-signal-representation with DOI
+[Zenodo DOI pending].
 
 > **Conflicto con el doble ciego, a resolver antes de enviar.** Esa URL contiene
 > el usuario de GitHub del primer autor, así que ponerla tal cual en un
